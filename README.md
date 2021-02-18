@@ -15,5 +15,6 @@ I like programming in JS, but maybe I'll learn python or go someday.
 
 Discord: **DAONE#7538**
 
-[![Boomermath's GitHub stats](https://github-readme-stats.vercel.app/api?username=boomermath&show_icons=true&theme=ayu-mirage)](https://github.com/boomermath/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=boomermath&layout=compact&theme=ayu-mirage)](https://github.com/boomermath/github-readme-stats)
+# Stats
+[![Boomermath's GitHub stats](https://github-readme-stats.vercel.app/api?username=boomermath&show_icons=true&theme=ayu-mirage)](https://github.com/boomermath)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=boomermath&layout=compact&theme=ayu-mirage)](https://github.com/boomermath)
