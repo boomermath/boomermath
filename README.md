@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/boomermath/boomermath/blob/master/giphy.gif?raw=true" width="350"></img>
+<img align="right" src="https://raw.githubusercontent.com/boomermath/boomermath/main/giphy.gif" width="350"></img>
 
 # Boomermath
 
