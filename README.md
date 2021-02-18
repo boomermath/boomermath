@@ -15,4 +15,4 @@ I like programming in JS, but maybe I'll learn python or go someday.
 
 Discord: **DAONE#7538**
 
-[![Boomermath's GitHub stats](https://github-readme-stats.vercel.app/api?username=boomermath)](https://github.com/boomermath/github-readme-stats)
+[![Boomermath's GitHub stats](https://github-readme-stats.vercel.app/api?username=boomermath&show_icons&theme=ayu-mirage)](https://github.com/boomermath/github-readme-stats)
