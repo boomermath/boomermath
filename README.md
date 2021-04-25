@@ -4,9 +4,7 @@
 
 Likes to program random things, including discord bots and websites.
 
-I'm currently rewriting [a discord bot](https://github.com/kinglalu/Mr.Grape-Beta)
-
-I like programming in JS, but maybe I'll learn python or go someday.
+I'm currently learning python and programming in JS
 
 **Likes**
 - Chess
