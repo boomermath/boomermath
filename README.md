@@ -11,7 +11,7 @@ I'm currently learning python and programming in JS
 - Undertale
 - Ace Attorney
 
-Discord: **DAONE#7538**
+Discord: **DAONE#4203**
 
 # Stats
 [![Boomermath's GitHub stats](https://github-readme-stats.vercel.app/api?username=boomermath&show_icons=true&theme=ayu-mirage)](https://github.com/boomermath)
