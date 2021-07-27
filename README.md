@@ -4,12 +4,17 @@
 
 Likes to program random things, including discord bots and websites.
 
-I'm currently learning python and programming in JS
+I'm currently learning C++.
+
+**Knows**
+- HTML
+- CSS
+- Javascript
+- Java
 
 **Likes**
 - Chess
 - Undertale
-- Ace Attorney
 
 Discord: **boomermath#4203**
 
