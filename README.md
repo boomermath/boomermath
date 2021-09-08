@@ -4,7 +4,7 @@
 
 Likes to program random things, including discord bots and websites.
 
-I'm currently learning C++.
+I'm currently learning Go.
 
 **Knows**
 - HTML
