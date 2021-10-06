@@ -9,6 +9,7 @@ I'm currently learning Go.
 **Knows**
 - HTML
 - CSS
+- Go
 - Javascript
 - Java
 
