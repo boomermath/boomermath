@@ -4,7 +4,7 @@
 
 Likes to program random things, including discord bots and websites.
 
-I'm currently learning Go.
+I'm currently vibing to Java.
 
 **Knows**
 - HTML
