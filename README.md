@@ -11,6 +11,7 @@ I'm currently vibing to Java.
 - CSS
 - Go
 - Javascript
+- Typescript
 - Java
 
 **Likes**
