@@ -9,6 +9,7 @@ I'm currently vibing to Java.
 **Knows**
 - HTML
 - CSS
+- Python
 - Go
 - Javascript
 - Typescript
