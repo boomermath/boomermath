@@ -7,8 +7,7 @@ Likes to program random things, including discord bots and websites.
 I'm currently vibing to Java.
 
 **Knows**
-- HTML
-- CSS
+- HTML & CSS
 - Python
 - Go
 - Javascript
