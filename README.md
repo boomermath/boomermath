@@ -10,7 +10,7 @@ I'm currently vibing to Java.
 - HTML & CSS
 - Python
 - Go
-- Javascript
+- Javascript (NodeJS)
 - Typescript
 - Java
 
