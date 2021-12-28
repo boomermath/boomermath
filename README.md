@@ -4,7 +4,7 @@
 
 Likes to program random things, including discord bots and websites.
 
-I'm currently vibing to Java.
+I'm currently learning to Vue.
 
 **Knows**
 - HTML & CSS
