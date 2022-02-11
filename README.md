@@ -4,7 +4,7 @@
 
 Likes to program random things, including discord bots and websites.
 
-I'm currently learning to Vue.
+Just chillin.
 
 **Knows**
 - HTML & CSS
