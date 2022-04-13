@@ -9,13 +9,13 @@ Just chillin.
 **Knows**
 - HTML & CSS
 - Python
-- Go
+- Golang
 - Javascript (NodeJS)
 - Typescript
 - Java
 
 **Likes**
-- Chess
+- Yakuza 
 - Tiramisu
 
 Discord: **boomermath#4203**
