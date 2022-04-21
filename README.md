@@ -1,4 +1,4 @@
-<img align="right" src="https://raw.githubusercontent.com/boomermath/boomermath/main/giphy.gif" width="350"></img>
+<img align="right" src="https://raw.githubusercontent.com/boomermath/boomermath/main/assets/giphy.gif" width="350"></img>
 
 # Boomermath
 
@@ -15,7 +15,7 @@ Just chillin.
 - Java
 
 **Likes**
-- Yakuza 
+- Yakuza (by SEGA)
 - Tiramisu
 
 Discord: **boomermath#4203**
