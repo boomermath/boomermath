@@ -4,7 +4,7 @@
 
 Likes to program random things, including discord bots and websites.
 
-Just chillin.
+Learning Spring Boot.
 
 **Knows**
 - HTML & CSS
