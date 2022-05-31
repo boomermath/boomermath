@@ -7,12 +7,11 @@ Likes to program random things, including discord bots and websites.
 Learning Spring Boot.
 
 **Knows**
-- HTML & CSS
-- Python
-- Golang
 - Javascript (NodeJS)
 - Typescript
 - Java
+- Python
+- Golang
 
 **Likes**
 - Yakuza (by SEGA)
