@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const links = [
+  { name: "Github", href: "https://github.com/boomermath" },
+  { name: "Discord", href: "https://discordapp.com/users/705433506230304849" },
+  { name: "Instagram", href: "https://instagram.com/rikhil_chilka" },
+];
+---
+
+<BaseLayout title="Boomermath">
+  <div
+    class="flex flex-col space-y-10 justify-center text-center h-screen text-white bg-gradient-to-r from-zinc-300 to-indigo-500"
+  >
+  <div>
+    <h1 class="text-7xl font-extrabold">Boomermath</h1> <br />
+    <h2 class="text-5xl font-semibold">A guy who makes a bunch of things.</h2> <br />
+    <h3 class="text-xl font-semibold">(More coming soon)</h3> <br />
+    </div>
+   <div class="space-x-3">
+    {
+      links.map(link => 
+      <a class="transform duration-200 text-xl p-4 rounded-md border-2 border-white hover:scale-125 hover:border-indigo-600 hover:bg-indigo-600 hover:shadow-2xl hover:shadow-zinc-300" target="_blank" href={link.href}>{link.name}</a>
+      )
+    }
+    </div>
+  </div>
+</BaseLayout>

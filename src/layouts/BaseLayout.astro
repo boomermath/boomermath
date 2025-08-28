@@ -1,0 +1,43 @@
+---
+import "../styles/global.css"
+import { SEO } from "astro-seo";
+
+const { title } = Astro.props;
+---
+
+<html>
+  <head>
+    <SEO
+      {title}
+      description="A hobbyist coder."
+      openGraph={{
+        basic: {
+          title: "Boomermath",
+          type: "Website",
+          image: "/background/background.png",
+        },
+        optional: {
+          description: "A hobbyist coder.",
+        },
+        image: {
+          alt: "Website",
+        },
+      }}
+    />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style is:global>
+      body {
+        font-family: "Red Hat Display", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
