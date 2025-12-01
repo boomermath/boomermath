@@ -5,26 +5,59 @@ const links = [
   { name: "Github", href: "https://github.com/boomermath" },
   { name: "Discord", href: "https://discordapp.com/users/705433506230304849" },
   { name: "Instagram", href: "https://instagram.com/rikhil_chilka" },
-  {name: "Reefscape AI Models", href: "https://drive.google.com/drive/folders/1MvkeeJWthH39iZAYs9rEA394sWrH1MMQ?usp=sharing"}
+  {
+    name: "Reefscape AI Models",
+    href: "https://drive.google.com/drive/folders/1MvkeeJWthH39iZAYs9rEA394sWrH1MMQ?usp=sharing",
+  },
 ];
-
 ---
 
 <BaseLayout title="Boomermath">
   <div
+    id="main"
     class="flex flex-col space-y-10 justify-center text-center h-screen text-white bg-gradient-to-r from-zinc-300 to-indigo-500"
   >
-  <div>
-    <h1 class="text-7xl font-extrabold">Boomermath</h1> <br />
-    <h2 class="text-5xl font-semibold">A guy who makes a bunch of things.</h2> <br />
-    <h3 class="text-xl font-semibold">(More coming soon)</h3> <br />
+    <div>
+      <h1 class="text-7xl font-extrabold">Boomermath</h1>
+      <br />
+      <h2 class="text-5xl font-semibold">A guy who makes a bunch of things.</h2>
+      <br />
+      <h3 class="text-xl font-semibold">(More coming soon)</h3>
+      <br />
     </div>
-   <div class="space-x-3">
-    {
-      links.map(link => 
-      <a class="transform duration-200 text-xl p-4 rounded-md border-2 border-white hover:scale-125 hover:border-indigo-600 hover:bg-indigo-600 hover:shadow-2xl hover:shadow-zinc-300" target="_blank" href={link.href}>{link.name}</a>
-      )
-    }
+    <div class="space-x-3">
+      {
+        links.map((link) => (
+          <a
+            class="transform duration-200 text-xl p-4 rounded-md border-2 border-white hover:scale-125 hover:border-indigo-600 hover:bg-indigo-600 hover:shadow-2xl hover:shadow-zinc-300"
+            target="_blank"
+            href={link.href}
+          >
+            {link.name}
+          </a>
+        ))
+      }
     </div>
   </div>
 </BaseLayout>
+
+<script is:inline src="/scripts/three.min.js"></script>
+<script is:inline src="/scripts/vanta.dots.min.js"></script>
+
+<script is:raw>
+  
+
+  VANTA.DOTS({
+  el: "#main",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xffb7c5,
+  color2: 0x00b8db,
+  backgroundColor: 0x18181b
+})
+</script>
