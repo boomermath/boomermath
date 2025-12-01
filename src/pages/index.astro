@@ -15,9 +15,10 @@ const links = [
 <BaseLayout title="Boomermath">
   <div
     id="main"
-    class="flex flex-col space-y-10 justify-center text-center h-screen text-white bg-gradient-to-r from-zinc-300 to-indigo-500"
+    class="flex flex-col space-y-10 justify-center text-center items-center h-screen text-white bg-slate-800"
   >
-    <div>
+    <div class="flex flex-col p-16 bg-slate-800/60 bg-opacity-50 space-y-2 w-fit rounded-2xl">
+      <div class="flex flex-col">
       <h1 class="text-7xl font-extrabold">Boomermath</h1>
       <br />
       <h2 class="text-5xl font-semibold">A guy who makes a bunch of things.</h2>
@@ -25,11 +26,11 @@ const links = [
       <h3 class="text-xl font-semibold">(More coming soon)</h3>
       <br />
     </div>
-    <div class="space-x-3">
+    <div class="space-x-3 block m-4">
       {
         links.map((link) => (
           <a
-            class="transform duration-200 text-xl p-4 rounded-md border-2 border-white hover:scale-125 hover:border-indigo-600 hover:bg-indigo-600 hover:shadow-2xl hover:shadow-zinc-300"
+            class="transform duration-200 text-xl p-4 rounded-md border-2 border-white hover:scale-125 hover:border-cyan-600 hover:bg-cyan-600 hover:shadow-lg hover:shadow-slate-500"
             target="_blank"
             href={link.href}
           >
@@ -37,6 +38,7 @@ const links = [
           </a>
         ))
       }
+    </div>
     </div>
   </div>
 </BaseLayout>
