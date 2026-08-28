@@ -9,9 +9,7 @@ const links = [
     name: "FRC Computer Vision Models",
     href: "https://drive.google.com/drive/folders/1MvkeeJWthH39iZAYs9rEA394sWrH1MMQ?usp=sharing",
   },
-{ name: "Kepha Design", 
-  href: "https://kepha.design",
-}
+  { name: "Kepha Design", href: "https://kepha.design" },
 ];
 ---
 
@@ -20,28 +18,34 @@ const links = [
     id="main"
     class="flex flex-col space-y-10 justify-center text-center items-center h-screen text-white bg-slate-800"
   >
-    <div class="flex flex-col p-16 bg-slate-800/60 bg-opacity-50 space-y-2 w-fit rounded-2xl">
-      <div class="flex flex-col">
-      <h1 class="text-7xl font-extrabold">Boomermath</h1>
-      <br />
-      <h2 class="text-5xl font-semibold">A guy who makes a bunch of things.</h2>
-      <br />
-      <h3 class="text-xl font-semibold">(More coming soon)</h3>
-      <br />
-    </div>
-    <div class="space-x-3 block m-4">
-      {
-        links.map((link) => (
-          <a
-            class="transform duration-200 text-xl p-4 rounded-md border-2 border-white hover:scale-125 hover:border-cyan-600 hover:bg-cyan-600 hover:shadow-lg hover:shadow-slate-500"
-            target="_blank"
-            href={link.href}
-          >
-            {link.name}
-          </a>
-        ))
-      }
-    </div>
+    <div
+      class="flex flex-col p-16 bg-slate-800/60 bg-opacity-50 w-fit rounded-2xl"
+    >
+      <div class="flex flex-col space-y-4">
+        <h1 class="text-7xl font-extrabold">Boomermath</h1>
+        <br />
+        <h2 class="text-5xl font-semibold">
+          A guy who makes a bunch of things.
+        </h2>
+        <br />
+        <h3 class="text-xl font-semibold">(More coming soon)</h3>
+        <br />
+      </div>
+      <div class="flex justify-center mt-4">
+        <div class="grid auto-cols-[minmax(0, 2fr)] space-y-4 w-fit">
+          {
+            links.map((link) => (
+              <a
+                class="transform duration-200 text-xl p-4 rounded-md border-2 border-white hover:scale-125 hover:border-cyan-600 hover:bg-cyan-600 hover:shadow-lg hover:shadow-slate-500"
+                target="_blank"
+                href={link.href}
+              >
+                {link.name}
+              </a>
+            ))
+          }
+        </div>
+      </div>
     </div>
   </div>
 </BaseLayout>
@@ -50,19 +54,17 @@ const links = [
 <script is:inline src="/scripts/vanta.dots.min.js"></script>
 
 <script is:raw>
-  
-
   VANTA.DOTS({
-  el: "#main",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0xffb7c5,
-  color2: 0x00b8db,
-  backgroundColor: 0x18181b
-})
+    el: "#main",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.0,
+    minWidth: 200.0,
+    scale: 1.0,
+    scaleMobile: 1.0,
+    color: 0xffb7c5,
+    color2: 0x00b8db,
+    backgroundColor: 0x18181b,
+  });
 </script>
